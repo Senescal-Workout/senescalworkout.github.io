@@ -1,0 +1,203 @@
+header{
+    height: 65px;
+    background: #FFEB3B;
+}
+
+body{
+    color: #616161;
+    background: #FFF9C4;
+    text-align: justify;
+}
+
+.logo{
+    width: 200px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+
+nav ul{
+    float: right;
+    margin-right: 25px;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline-block;  
+}
+
+nav ul li a{
+    padding: 10px;
+    color: #212121;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.splash{
+    background: url(../image/fondo.jpg) center center fixed;
+    background-color: #FFF9C4;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.splash h1{ 
+    display: inline-block;
+    background: #FFF9C4;
+    color: #757575;
+    padding: 5px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.text{
+    margin-top: 20vh;
+
+}
+
+.splash .btn a{
+    background:#FFEB3B;
+    color: #212121;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px;
+    font-size: 20px;
+}
+.splash .btn a:hover{
+    background:#FF5722;
+    color:#212121;
+}
+
+.center{
+    text-align: center;
+}
+.marginspace{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.description{
+    background: #FFF9C4;
+    
+}
+.description .col-md-8 img{
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.splash .col-md-8 .pandaicon img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.description h4 {
+    margin-top: 50px;
+}
+
+.contentcards{
+    padding: 15px;
+}
+
+.contentcards h3{
+    color: #FF5722;
+}
+.contentcards p{
+    color: #757575;
+}
+
+.description .card {
+    height: 640px;
+}
+
+#infomotiva{
+    background: #FFC107;
+}
+#infomotiva .col-md-6{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#infomotiva .col-md-6 img{
+    height: 500px;
+    border: solid 5px black;
+}
+i{
+    color:#FF5722;
+}
+
+#informativa h2{
+    font-size: 30px;
+}
+
+.autor{
+    background: #BDBDBD;
+    padding: 2px;
+    font-size: 25px;
+}
+
+#infomotiva .col-md-8 p {
+    padding-top: 50px;
+    font-size: 15px;
+}
+
+
+
+#formulario .col-md-6.textito h3 {
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+}
+#formulario .col-md-6.textito p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#formulario .col-md-6 img{
+    height: 400px;
+    margin-top: 5px;
+}
+
+#formulario .btn-primary{
+    background:#FFA000;
+    color: #212121;
+    border: none; 
+    display: inline-block;
+    padding: 8px 24px 8px 24;
+    margin-left: 350px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+#formulario .btn-primary:hover{
+    background:#FF5722;
+    color:#212121;
+}
+
+.mb-3 {
+    margin-right: 100px ;
+    margin-left: 100px;
+}
+#galeria{
+    background: #FFA000;
+}
+#galeria h1{
+    margin: 15px;
+}
+.carousel-image-container {
+    max-width: 75%; 
+    margin: 0 auto;
+}
+.carousel-inner img {
+    max-height: 800px;
+    border: solid 5px black;
+}
+
+#galeria .col-md-8 h1{
+    margin-top: 5px;
+}
+
+#formulario i{
+    font-size: 50px;
+    margin: 15px;
+}
